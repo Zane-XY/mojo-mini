@@ -4,7 +4,7 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-  NAME      => 'app.pl',
+  NAME      => 'myapp',
   VERSION   => '0.01',
   EXE_FILES => ['app.pl'],
   PREREQ_PM => {'Mojolicious' => '5.02'},

@@ -1,2 +1,2 @@
 #!/bin/sh
-./app.pl daemon --listen http://*:$PORT
+script/myapp daemon --listen http://*:$PORT
